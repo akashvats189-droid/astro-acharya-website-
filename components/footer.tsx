@@ -7,6 +7,9 @@ const quickLinks = [
   { href: "#about", label: "परिचय" },
   { href: "#testimonials", label: "समीक्षा" },
   { href: "#contact", label: "संपर्क" },
+  { href: "/privacy-policy", label: "गोपनीयता नीति" },
+  { href: "/terms-conditions", label: "शर्तें" },
+  { href: "/disclaimer", label: "अस्वीकरण" },
 ]
 
 const services = [
