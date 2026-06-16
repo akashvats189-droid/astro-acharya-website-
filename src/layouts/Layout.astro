@@ -1,0 +1,42 @@
+---
+import '../styles/globals.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = 'Vedic Karmkand', description = 'Authentic Vedic rituals and ceremonies' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="bg-background">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+  </head>
+  <body class="text-foreground">
+    <nav class="bg-white shadow-md p-4">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="text-2xl font-bold text-primary">🕉 Vedic Karmkand</div>
+        <div class="flex gap-6">
+          <a href="/" class="hover:text-primary transition">Home</a>
+          <a href="/services" class="hover:text-primary transition">Services</a>
+          <a href="/bookings" class="hover:text-primary transition">My Bookings</a>
+          <a href="/admin" class="hover:text-primary transition">Admin</a>
+        </div>
+      </div>
+    </nav>
+    <main class="min-h-screen">
+      <slot />
+    </main>
+    <footer class="bg-secondary text-white py-8 mt-16">
+      <div class="max-w-7xl mx-auto text-center">
+        <p>&copy; 2026 Vedic Karmkand. Preserving authentic spiritual traditions.</p>
+      </div>
+    </footer>
+  </body>
+</html>
