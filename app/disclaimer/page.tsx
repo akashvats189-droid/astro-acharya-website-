@@ -51,7 +51,7 @@ export default function Disclaimer() {
             <section>
               <h2 className="text-2xl font-serif font-bold text-foreground mt-8 mb-4">वेबसाइट की सामग्री</h2>
               <p className="text-muted-foreground leading-relaxed">
-                वेबसाइट पर प्रदान की गई सभी जानकारी "जैसे है" आधार पर दी जाती है। 
+                वेबसाइट पर प्रदान की गई सभी जानकारी &quot;जैसे है&quot; आधार पर दी जाती है। 
                 हम सामग्री की सटीकता, पूर्णता या उपयोगिता के लिए कोई वारंटी नहीं देते।
               </p>
             </section>
@@ -95,8 +95,8 @@ export default function Disclaimer() {
             <section>
               <div className="bg-accent/10 border-l-4 border-accent p-4 rounded mt-8">
                 <p className="text-foreground font-semibold">
-                  "ज्योतिष मार्गदर्शन प्रदान करता है, लेकिन भाग्य निर्धारित नहीं करता। 
-                  आपके कर्म और निर्णय आपके जीवन का आकार तय करते हैं।"
+                  &quot;ज्योतिष मार्गदर्शन प्रदान करता है, लेकिन भाग्य निर्धारित नहीं करता। 
+                  आपके कर्म और निर्णय आपके जीवन का आकार तय करते हैं।&quot;
                 </p>
               </div>
             </section>
